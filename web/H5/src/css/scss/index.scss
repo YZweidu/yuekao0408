@@ -1,0 +1,100 @@
+@import "common.scss";
+
+.wrapper{
+	width:100%; 
+	height:100%;
+	overflow:hidden; 
+	display:flex; 
+	flex-direction: column;
+	.header{
+		width:100%; 
+		height:pr(80px);
+		background:#ffa36a; 
+		h3{
+			width:100%; 
+			height:pr(30px); 
+			line-height:pr(30px); 
+			text-align:center; 
+			font-size:pr(18px);
+			font-family:"宋体";
+			color:#fff; 
+			span{
+				float:left; 
+				margin-left:pr(10px);
+				font-size:pr(22px); 
+			}
+		}
+	}
+	.content{
+		width:100%; 
+		flex:1; 
+		background:#eee; 
+		overflow-y:scroll; 
+		h2{
+			width:100%; 
+			height:pr(30px);
+			background:#ffa36a; 
+		}
+		ul{
+			width:100%; 
+			position:relative; 
+			top:pr(-30px); 
+			li{
+				width:90%; 
+				border-radius:pr(8px); 
+				background:#fff; 
+				margin:pr(20px) auto; 
+				margin-top:0; 
+				padding:pr(10px); 
+				h4{
+					box-sizing: border-box; 
+					margin:pr(10px) 0;
+					font-size:pr(18px); 
+					span{
+						margin-left:pr(20px); 
+						font-size:pr(14px); 
+					}
+				}
+				p{
+					font-size:pr(14px); 
+					color:#aaa; 
+					margin:pr(5px) 0;
+					.mui-radio{
+						display:inline-block;
+						font-size:pr(14px) !important; 
+						color:#aaa; 
+						font:pr(14px); 
+						label{
+							font-size:pr(14px); 
+						}
+					}
+					button {
+						padding:pr(5px) pr(5px);
+						margin-right:pr(10px);
+						margin-left:pr(10px);
+						border:solid pr(1px) #ccc; 
+						border-radius:pr(10px); 
+					}
+				}
+			}
+		}
+	}
+	.footer{
+		width:100%; 
+		height:pr(30px); 
+		/* position:fixed;
+		left:0; 
+		bottom:0; 
+		z-index:9999; */
+		p{
+			width:90%; 
+			height:pr(30px);
+			line-height:pr(30px);
+			margin:0 auto; 
+			text-align:center; 
+			color:#fff; 
+			font-size:pr(20px); 
+			background:#ffa36a;
+		}
+	}
+}

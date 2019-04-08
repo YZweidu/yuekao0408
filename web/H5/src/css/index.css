@@ -1,0 +1,253 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline; }
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  font-family: arial, sans-serif; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+ins,
+a {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: inline-block; }
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none; }
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+  -o-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+  .wrapper .header {
+    width: 100%;
+    height: 2.13333rem;
+    background: #ffa36a; }
+    .wrapper .header h3 {
+      width: 100%;
+      height: 0.8rem;
+      line-height: 0.8rem;
+      text-align: center;
+      font-size: 0.48rem;
+      font-family: "宋体";
+      color: #fff; }
+      .wrapper .header h3 span {
+        float: left;
+        margin-left: 0.26667rem;
+        font-size: 0.58667rem; }
+  .wrapper .content {
+    width: 100%;
+    flex: 1;
+    background: #eee;
+    overflow-y: scroll; }
+    .wrapper .content h2 {
+      width: 100%;
+      height: 0.8rem;
+      background: #ffa36a; }
+    .wrapper .content ul {
+      width: 100%;
+      position: relative;
+      top: -0.8rem; }
+      .wrapper .content ul li {
+        width: 90%;
+        border-radius: 0.21333rem;
+        background: #fff;
+        margin: 0.53333rem auto;
+        margin-top: 0;
+        padding: 0.26667rem; }
+        .wrapper .content ul li h4 {
+          box-sizing: border-box;
+          margin: 0.26667rem 0;
+          font-size: 0.48rem; }
+          .wrapper .content ul li h4 span {
+            margin-left: 0.53333rem;
+            font-size: 0.37333rem; }
+        .wrapper .content ul li p {
+          font-size: 0.37333rem;
+          color: #aaa;
+          margin: 0.13333rem 0; }
+          .wrapper .content ul li p .mui-radio {
+            display: inline-block;
+            font-size: 0.37333rem !important;
+            color: #aaa;
+            font: 0.37333rem; }
+            .wrapper .content ul li p .mui-radio label {
+              font-size: 0.37333rem; }
+          .wrapper .content ul li p button {
+            padding: 0.13333rem 0.13333rem;
+            margin-right: 0.26667rem;
+            margin-left: 0.26667rem;
+            border: solid 0.02667rem #ccc;
+            border-radius: 0.26667rem; }
+  .wrapper .footer {
+    width: 100%;
+    height: 0.8rem;
+    /* position:fixed;
+		left:0; 
+		bottom:0; 
+		z-index:9999; */ }
+    .wrapper .footer p {
+      width: 90%;
+      height: 0.8rem;
+      line-height: 0.8rem;
+      margin: 0 auto;
+      text-align: center;
+      color: #fff;
+      font-size: 0.53333rem;
+      background: #ffa36a; }

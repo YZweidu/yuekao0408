@@ -19,9 +19,11 @@ gulp.task('server',()=>{
             port:2727,
             livereload:true,
             proxies:[
-                //{source:"/getGoods",target:"http://localhost:3000/getGoods"},
-                {source:"/api/login",target:"http://localhost:3000/login"},
-                {source:"/api/getAccount",target:"http://localhost:3000/getAccount"}
+                {source:"/api/getAddress",target:"http://localhost:3000/getAddress"},
+                {source:"/api/changeAddress",target:"http://localhost:3000/changeAddress"},
+                {source:"/api/removeAddress",target:"http://localhost:3000/removeAddress"},
+                {source:"/api/addAddress",target:"http://localhost:3000/addAddress"},
+                {source:"/api/getDetail",target:"http://localhost:3000/getDetail"}
             ]
         }))
 })

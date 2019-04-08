@@ -1,0 +1,54 @@
+@import "common.scss";
+
+.wrapper{
+	width:100%; 
+	height:100%;
+	overflow:hidden; 
+	display:flex; 
+	flex-direction: column;
+	.header{
+		width:100%; 
+		height:pr(80px);
+		background:#ffa36a; 
+		h3{
+			width:100%; 
+			height:pr(30px); 
+			line-height:pr(30px); 
+			text-align:center; 
+			font-size:pr(18px);
+			font-family:"宋体";
+			color:#fff; 
+			span{
+				float:left; 
+				margin-left:pr(10px);
+				font-size:pr(22px); 
+			}
+		}
+	}
+	.content{
+		flex:1; 
+		padding:0 pr(10px); 
+		background:#fff; 
+		input{
+			width:100%; 
+			height:pr(26px); 
+			font-size:pr(16px); 
+			border:none; 
+			border-bottom:solid pr(1px) #ccc; 
+		}
+	}
+	.footer{
+		width:100%; 
+		height:pr(30px); 
+		p{
+			width:90%; 
+			height:pr(30px);
+			line-height:pr(30px);
+			margin:0 auto; 
+			text-align:center; 
+			color:#fff; 
+			font-size:pr(20px); 
+			background:#ffa36a;
+		}
+	}
+}
